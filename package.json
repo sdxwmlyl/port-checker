@@ -1,0 +1,18 @@
+{
+  "name": "@daily-dev/port-checker",
+  "version": "1.0.0",
+  "description": "Check which process is using a port - simple, fast, cross-platform",
+  "main": "index.js",
+  "bin": {
+    "port-check": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["port", "check", "cli", "developer", "tool", "network"],
+  "author": "Daily Dev Project",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
